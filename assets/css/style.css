@@ -158,9 +158,9 @@ img#logo{
 }
 
 /* Get Startet Button */
-/* .get-started-btn {
+.get-started-btn {
   margin-left: 25px;
-  background: #009961;
+  background: #9010aa;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
@@ -168,19 +168,19 @@ img#logo{
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-} */
+}
 
-/* .get-started-btn:hover {
-  background: #00b371;
+.get-started-btn:hover {
+  background: #690a7c;
   color: #fff;
-} */
+}
 
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
   }
-} */
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -442,7 +442,7 @@ img#logo{
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/staff-members.jpg") center center;
+  background: url("../img/staff-members.jpg") center top;
   background-size: cover;
   position: relative;
 }
@@ -618,9 +618,9 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-.about .content h3 {
+.about p{
   font-weight: 600;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .about .content ul {
@@ -714,7 +714,7 @@ section {
 
 .staffs .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -731,7 +731,7 @@ div.picture > img{
   height: 150px !important;
   width: 150px !important;
   border-radius: 25%;
-  object-position: center;
+  object-position: center top;
   object-fit: cover;
 }
 
@@ -752,6 +752,7 @@ div.picture > img{
 
 .cta p {
   color: #fff;
+  font-size: 18px;
 }
 
 /* .cta .cta-btn {
@@ -788,27 +789,27 @@ div.picture > img{
 }
 
 /*--------------------------------------------------------------
-# Features
+# sub-categories
 --------------------------------------------------------------*/
-.features .icon-box h4 {
+.sub-categories .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
 
-.features .icon-box i {
+.sub-categories .icon-box i {
   font-size: 48px;
   float: left;
   color: #bf0ee2;
 }
 
-.features .icon-box p {
-  font-size: 15px;
+.sub-categories .icon-box p {
+  font-size: 18px;
   color: #848484;
   margin-left: 60px;
 }
 
-.features .image {
+.sub-categories .image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -816,36 +817,37 @@ div.picture > img{
 }
 
 /*--------------------------------------------------------------
-# Clients
+# courses
 --------------------------------------------------------------*/
-/* .clients {
-  padding-top: 30px;
+.courses {
+  padding: 30px;
 }
 
-.clients .clients-wrap {
-  border-top: 1px solid #e7e7e7;
-  border-left: 1px solid #e7e7e7;
-}
-
-.clients .client-logo {
-  padding: 64px;
-  display: flex;
-  justify-content: center;
+.courses .course-logo {
+  padding: 6%;
   align-items: center;
   border-right: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
   overflow: hidden;
   background: #fff;
-  height: 140px;
 }
 
-.clients .client-logo:hover img {
+.courses .course-logo > p{
+  font-size: 17px;
+}
+
+.course-logo:hover{
+  border: 2px solid #9010aa;
+  color: #9010aa;
+}
+
+.courses .course-logo:hover h3{
   transform: scale(1.1);
 }
 
-.clients img {
+.courses h3{
   transition: all 0.4s ease-in-out;
-} */
+}
 
 /*--------------------------------------------------------------
 # Counts
@@ -878,20 +880,25 @@ div.picture > img{
   font-weight: 700;
 }
 
-.counts .counters span {
+.counts .title p{
+  font-size: 18pxz\xsx;
+}
+
+/* .counts .counters span {
   font-size: 48px;
   display: block;
   font-weight: 700;
   color: #bf0ee2;
-}
+} */
 
-.counts .counters p {
+/* .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #fff;
-}
+} */
 
 @media (min-width: 1200px) {
   .counts {
@@ -1066,11 +1073,13 @@ div.picture > img{
 # structure
 --------------------------------------------------------------*/
 .structure {
-  background-color: #f9f9f9;
+  background-color: #fff;
+  text-align: center;
 }
 
 #structure > img{
-  margin: auto !important;
+  height: 800px;
+  width: 800px;
 }
 
 /* .structure .box {
@@ -1209,7 +1218,7 @@ div.picture > img{
 }
 
 .faq .content p {
-  font-size: 15px;
+  font-size: 20px;
   color: #848484;
 }
 
@@ -1244,7 +1253,7 @@ div.picture > img{
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
   padding-right: 30px;
@@ -1262,6 +1271,7 @@ div.picture > img{
 .faq .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  font-size: 18px;
 }
 
 .faq .accordion-list .icon-show {
@@ -1335,7 +1345,7 @@ div.picture > img{
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #5b5b5b;
 }
 
